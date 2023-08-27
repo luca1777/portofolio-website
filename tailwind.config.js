@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         "poppins": ["Poppins", "sans-serif"],
         "mulish": ["Mulish", "sans-serif"]
+      },
+      boxShadow: {
+        'custom': '0 0 10px rgba(0, 0, 0, 0.09)'
       }
     },
   },
