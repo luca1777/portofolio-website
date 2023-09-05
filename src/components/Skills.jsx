@@ -18,7 +18,7 @@ export const Skills = () => {
             / / These are the technologies I've worked with
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 text-center py-8">
+        <div className="w-full gap-[18px] grid grid-cols-2 sm:grid-cols-3 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
             <img className="w-20 mx-auto" src={HTML} alt="html icon" />
             <p className="my-4">HTML</p>
@@ -29,7 +29,7 @@ export const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
             <img
-              className="w-20 mx-auto"
+              className="w-[70px] mx-auto"
               src={JavaScript}
               alt="JavaScript icon"
             />
@@ -40,8 +40,8 @@ export const Skills = () => {
             <p className="my-4">React</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
-            <img className="w-20 mx-auto bg-black" src={GitHub} alt="github icon" />
-            <p className="my-4">GitHub</p>
+            <img className="w-20 mx-auto" src={GitHub} alt="github icon" />
+            <p className="my-4">Git</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
             <img className="w-20 mx-auto" src={Tailwind} alt="tailwind icon" />

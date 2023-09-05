@@ -7,7 +7,7 @@ export const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed bg-[#FFFFFF] w-full h-[80px] flex justify-between items-center px-4 text-[#2D2E32] shadow-custom">
+    <div className="z-10 fixed bg-[#FFFFFF] w-full h-[80px] flex justify-between items-center px-4 text-[#2D2E32] shadow-custom">
       <div>
         <Link to="home" smooth={true} duration={500}>
           <h3 className="text-[#2D2E32] text-xl font-bold mx-[1em] cursor-pointer">
@@ -91,7 +91,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500} offset={-80}>
             Contact
           </Link>
         </li>
