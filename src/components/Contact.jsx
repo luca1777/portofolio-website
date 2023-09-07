@@ -17,7 +17,9 @@ export const Contact = () => {
           <HiMail className="text-[#147EFB] text-[4rem] my-5 py-3 rounded-full bg-white shadow-xl lg:mr-5" />
           <div className="flex flex-col items-center my-auto lg:items-start">
             <h3 className="text-[#2d2e32] font-bold">Mail</h3>
-            <p className="text-[#767676] text-lg">luca.alexandru17@yahoo.com</p>
+            <a href="mailto:luca.alexandru17@yahoo.com">
+            <p className="text-[#767676] text-lg hover:text-[#147EFB]">luca.alexandru17@yahoo.com</p>
+            </a>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row items-center lg:items-start mt-5">

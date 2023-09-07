@@ -16,11 +16,14 @@ export const About = () => {
           </div>
           <div>
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+              I embarked on my journey in programming with a keen desire to
+              comprehend website functionality and to craft bespoke digital
+              solutions. My passion for this field has grown steadily and I'm
+              eager to continuously evolve in it. I thrive when working in a
+              team setting and possess the discipline and perseverance needed to
+              achieve my goals or solve challenges. Beyond the screen, I
+              recharge with mountain excursions and cherish moments spent with
+              friends.
             </p>
           </div>
         </div>

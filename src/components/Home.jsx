@@ -21,8 +21,8 @@ export const Home = () => {
             />
           </h2>
           <p className="text-[#555] py-4 max-w-[700px]">
-            Hi, I'm Luca Alexandru. A passionate Front-end React Developer based
-            in Bucharest, Romania. 📍
+            Hi, I'm Luca Alexandru. A passionate Front-end React Developer who likes to turn ideas
+            into pixels. 👨‍💻 
           </p>
           <div className="flex justify-between md:justify-normal items-center">
             <Link to="work" smooth={true} duration={500} offset={-80}>
