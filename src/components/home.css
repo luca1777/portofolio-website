@@ -8,6 +8,8 @@
     order: 1;
     justify-self: center;
     animation: profile_animate 8s ease-in-out infinite 1s;
+    border: 3px solid black;
+    filter: brightness(0.9);
 }
 
 @keyframes profile_animate {

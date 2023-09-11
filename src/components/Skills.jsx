@@ -10,12 +10,12 @@ export const Skills = () => {
   return (
     <div name="skills" className="w-full h-screen bg-[#F9F9F9] text-[#2d2e32]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div>
-          <p className="text-4xl font-bold inline border-b-4 border-[#147EFB] pr-2">
+        <div className="text-center md:text-left">
+          <p className=" text-4xl font-bold inline border-b-4 border-[#147EFB] pr-2">
             Tech Stack
           </p>
           <p className="py-4">
-            / / These are the technologies I've worked with
+            / / These are the technologies I am specialized in
           </p>
         </div>
         <div className="w-full gap-[18px] grid grid-cols-2 sm:grid-cols-3 text-center py-8">

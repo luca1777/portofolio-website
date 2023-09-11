@@ -34,8 +34,8 @@ export const Contact = () => {
       <div className="flex flex-col lg:flex-row h-[100px] bg-[#2D2E32] text-white">
         <h3 className="my-auto mx-auto lg:mx-0 lg:ml-[250px] text-lg">Copyright © 2023. All rights are reserved</h3>
         <div className="flex mx-auto lg:mx-0 my-auto lg:ml-[500px] text-4xl">
-        <a className="mx-7 transition-transform hover:scale-110 duration-300" href="http://"><BsLinkedin /></a>
-        <a className="transition-transform hover:scale-110 duration-300" href="http://"><BsGithub /></a>
+        <a className="mx-7 transition-transform hover:scale-110 duration-300" href="https://www.linkedin.com/in/alexandru-luca-dev/"><BsLinkedin /></a>
+        <a className="transition-transform hover:scale-110 duration-300" href="https://github.com/luca1777"><BsGithub /></a>
         </div>
       </div>
     </div>

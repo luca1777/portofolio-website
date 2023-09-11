@@ -8,7 +8,6 @@ import { Link } from "react-scroll";
 export const Home = () => {
   return (
     <div name="home" className="w-full h-auto md:h-screen bg-[#F9F9F9]">
-      {/* container */}
       <div className="max-w-[1000px] mx-auto pt-28 px-8 flex flex-col sm:flex-row sm:pt-40 justify-center">
         <div className="order-2 sm:order-1 text-center sm:text-left mt-4">
           <h2 className="text-5xl sm:text-6xl leading-tight font-bold text-[#2d2e32] inline-block">
@@ -25,7 +24,7 @@ export const Home = () => {
             into pixels. 👨‍💻 
           </p>
           <div className="flex justify-between md:justify-normal items-center">
-            <Link to="work" smooth={true} duration={500} offset={-80}>
+            <Link to="work" smooth={true} duration={500} offset={-40}>
               <button className="text-[#2d2e32] group border-2 rounded-xl md:mr-80 px-6 py-3 my-2 flex items-center hover:bg-[#147EFB] hover:border-[#147EFB] duration-300">
                 View Work
                 <span className="group-hover:rotate-90 duration-300">
@@ -34,10 +33,10 @@ export const Home = () => {
               </button>
             </Link>
             <span className="flex sm:pt-5 text-4xl">
-              <a className="mr-5 hover:text-[#147EFB] duration-300" href="http://">
+              <a className="mr-5 hover:text-[#147EFB] duration-300" href="https://www.linkedin.com/in/alexandru-luca-dev/">
                 <BsLinkedin />
               </a>
-              <a className="hover:text-[#147EFB] duration-300" href="http://">
+              <a className="hover:text-[#147EFB] duration-300" href="https://github.com/luca1777">
                 <BsGithub />
               </a>
             </span>
