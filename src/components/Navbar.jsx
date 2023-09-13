@@ -18,27 +18,27 @@ export const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex font-semibold">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link to="home" className="hover:text-[#147EFB]" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about" className="hover:text-[#147EFB]" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills" className="hover:text-[#147EFB]" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500}>
+          <Link to="work" className="hover:text-[#147EFB]" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link to="contact" className="hover:text-[#147EFB]" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -59,12 +59,12 @@ export const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home" className="hover:text-[#147EFB]" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about" className="hover:text-[#147EFB]" smooth={true} duration={500}>
             About
           </Link>
         </li>
@@ -72,6 +72,7 @@ export const Navbar = () => {
           <Link
             onClick={handleClick}
             to="skills"
+            className="hover:text-[#147EFB]"
             smooth={true}
             duration={500}
             offset={-40}
@@ -83,6 +84,7 @@ export const Navbar = () => {
           <Link
             onClick={handleClick}
             to="work"
+            className="hover:text-[#147EFB]"
             smooth={true}
             duration={500}
             offset={-80}
@@ -91,7 +93,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500} offset={-80}>
+          <Link onClick={handleClick} to="contact" className="hover:text-[#147EFB]" smooth={true} duration={500} offset={-80}>
             Contact
           </Link>
         </li>
