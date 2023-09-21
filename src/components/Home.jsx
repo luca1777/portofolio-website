@@ -33,10 +33,10 @@ export const Home = () => {
               </button>
             </Link>
             <span className="flex sm:pt-5 text-4xl">
-              <a className="mr-5 hover:text-[#147EFB] duration-300" href="https://www.linkedin.com/in/alexandru-luca-dev/">
+              <a className="mr-5 hover:text-[#147EFB] duration-300" href="https://www.linkedin.com/in/alexandru-luca-dev/" target="_blank" rel="noopener noreferrer">
                 <BsLinkedin />
               </a>
-              <a className="hover:text-[#147EFB] duration-300" href="https://github.com/luca1777">
+              <a className="hover:text-[#147EFB] duration-300" href="https://github.com/luca1777" target="_blank" rel="noopener noreferrer">
                 <BsGithub />
               </a>
             </span>
