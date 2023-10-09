@@ -5,6 +5,8 @@ import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
+import Next from "../assets/next-logo.png";
+import Typescript from "../assets/typescript-logo.png"
 
 export const Skills = () => {
   return (
@@ -46,6 +48,14 @@ export const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
             <img className="w-20 mx-auto" src={Tailwind} alt="tailwind icon" />
             <p className="my-4">Tailwind</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
+            <img className="w-20 mx-auto" src={Typescript} alt="typescript icon" />
+            <p className="my-4">Typescript</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
+            <img className="w-[140px] mx-auto" src={Next} alt="next icon" />
+            <p className="">Next</p>
           </div>
         </div>
       </div>
