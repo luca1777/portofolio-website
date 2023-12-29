@@ -35,7 +35,7 @@ export const Work = () => {
             <p className="sm:block hidden text-white bg-image rounded-md group-hover:opacity-0 text-2xl absolute top-0 text-center py-2 w-full">Hover Me</p>
             <div className="sm:opacity-0 group-hover:opacity-100 opacity-100 px-2 bg-image w-full h-full rounded-md text-center pt-12">
               <span className="text-xl font-bold text-white tracking-wider">
-                Next.js App using Wordpress as Headless CMS (...in progress)
+                Next.js Ecommerce using Wordpress as Headless CMS (...in progress)
               </span>
               <div className="pt-8 text-center">
                 <a href="https://pro-ecommerce.netlify.app/" target="_blank" rel="noopener noreferrer">
