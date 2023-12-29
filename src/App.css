@@ -23,6 +23,10 @@
     background-image: url(../src/assets/getwear.png);
 }
 
+.bgImagePro {
+    background-image: url(../src/assets/pro-ecommerce.png);
+}
+
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
