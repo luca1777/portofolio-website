@@ -12,18 +12,28 @@ export const Work = () => {
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8">
           <div className="bgImage shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative">
-            <p className="sm:block hidden text-white bg-image rounded-md group-hover:opacity-0 text-2xl absolute top-0 text-center py-2 w-full">Hover Me</p>
+            <p className="sm:block hidden text-white bg-image rounded-md group-hover:opacity-0 text-2xl absolute top-0 text-center py-2 w-full">
+              Hover Me
+            </p>
             <div className="sm:opacity-0 group-hover:opacity-100 opacity-100 bg-image w-full h-full rounded-md text-center pt-12">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://getwear.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://getwear.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/luca1777/simple-ecommerce" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/luca1777/simple-ecommerce"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -32,18 +42,28 @@ export const Work = () => {
             </div>
           </div>
           <div className="bgImagePro shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative">
-            <p className="sm:block hidden text-white bg-image rounded-md group-hover:opacity-0 text-2xl absolute top-0 text-center py-2 w-full">Hover Me</p>
+            <p className="sm:block hidden text-white bg-image rounded-md group-hover:opacity-0 text-2xl absolute top-0 text-center py-2 w-full">
+              Hover Me
+            </p>
             <div className="sm:opacity-0 group-hover:opacity-100 opacity-100 px-2 bg-image w-full h-full rounded-md text-center pt-12">
               <span className="text-xl font-bold text-white tracking-wider">
-                Next.js Ecommerce using Wordpress as Headless CMS (...in progress)
+                Next.js Ecommerce using Wordpress as Headless CMS
               </span>
               <div className="pt-8 text-center">
-                <a href="https://pro-ecommerce.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://pro-ecommerce.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/luca1777/pro-ecommerce" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/luca1777/pro-ecommerce"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg">
                     Code
                   </button>

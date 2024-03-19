@@ -6,7 +6,10 @@ import ReactImg from "../assets/react.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Next from "../assets/next-logo.png";
-import Typescript from "../assets/typescript-logo.png"
+import Typescript from "../assets/typescript-logo.png";
+import Shopify from "../assets/shopify.svg";
+import Woo from "../assets/woocommerce.svg";
+import Figma from "../assets/apps-figma.svg";
 
 export const Skills = () => {
   return (
@@ -50,12 +53,28 @@ export const Skills = () => {
             <p className="my-4">Tailwind</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
-            <img className="w-20 mx-auto" src={Typescript} alt="typescript icon" />
+            <img
+              className="w-20 mx-auto"
+              src={Typescript}
+              alt="typescript icon"
+            />
             <p className="my-4">Typescript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
             <img className="w-[140px] mx-auto" src={Next} alt="next icon" />
             <p className="">Next</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
+            <img className="w-[100px] mx-auto" src={Shopify} alt="next icon" />
+            <p className="">Shopify</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
+            <img className="w-[100px] mx-auto" src={Woo} alt="next icon" />
+            <p className="">WooCommerce</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
+            <img className="w-[100px] mx-auto" src={Figma} alt="next icon" />
+            <p className="">Figma</p>
           </div>
         </div>
       </div>
