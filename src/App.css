@@ -27,6 +27,10 @@
     background-image: url(../src/assets/pro-ecommerce.png);
 }
 
+.bgImageDeedit {
+    background-image: url(../src/assets/deedit-app.png);
+}
+
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
