@@ -31,14 +31,19 @@
     background-image: url(../src/assets/deedit-app.png);
 }
 
-.content-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
+.bgImageDeseo {
+    background-image: url(../src/assets/deseo.png);
 }
 
-@media (min-width: 640px) {
+.content-div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 225px;
+    border-radius: 0.75rem;
+}
+
+/* @media (min-width: 640px) {
     
     .content-div:hover {
         background-image: linear-gradient(
@@ -47,12 +52,12 @@
             hsla(242, 74%, 61%, 0.8)
         );
     }
-}
+} */
 
-.bg-image {
+/* .bg-image {
     background-image: linear-gradient(
         to right, 
         rgba(112, 157, 255, 0.7),
         hsla(242, 74%, 61%, 0.7)
     );
-}
+} */

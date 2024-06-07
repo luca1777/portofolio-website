@@ -10,6 +10,9 @@ import Typescript from "../assets/typescript-logo.png";
 import Shopify from "../assets/shopify.svg";
 import Woo from "../assets/woocommerce.svg";
 import Figma from "../assets/apps-figma.svg";
+import MongoDb from "../assets/mongo-icon.png";
+import NodeJs from "../assets/nodejs-1-logo-svgrepo-com.svg"
+import Firebase from "../assets/firebase-svgrepo-com.svg"
 
 export const Skills = () => {
   return (
@@ -75,6 +78,18 @@ export const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
             <img className="w-[100px] mx-auto" src={Figma} alt="next icon" />
             <p className="">Figma</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
+            <img className="w-[100px] mx-auto" src={MongoDb} alt="next icon" />
+            <p className="">MongoDB</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
+            <img className="w-[100px] mx-auto" src={Firebase} alt="next icon" />
+            <p className="">Firebase</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-xl">
+            <img className="w-[100px] mx-auto" src={NodeJs} alt="next icon" />
+            <p className="">NodeJS</p>
           </div>
         </div>
       </div>
